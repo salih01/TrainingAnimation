@@ -13,6 +13,7 @@
 		9294AA222BD5456C00B3EDF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9294AA212BD5456C00B3EDF8 /* Preview Assets.xcassets */; };
 		9294AA242BD5456C00B3EDF8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9294AA232BD5456C00B3EDF8 /* Persistence.swift */; };
 		9294AA272BD5456C00B3EDF8 /* TrainingAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9294AA252BD5456C00B3EDF8 /* TrainingAnimation.xcdatamodeld */; };
+		9294AA2F2BD546BE00B3EDF8 /* FadeIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9294AA2E2BD546BE00B3EDF8 /* FadeIn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		9294AA212BD5456C00B3EDF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9294AA232BD5456C00B3EDF8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		9294AA262BD5456C00B3EDF8 /* TrainingAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrainingAnimation.xcdatamodel; sourceTree = "<group>"; };
+		9294AA2E2BD546BE00B3EDF8 /* FadeIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeIn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		9294AA192BD5456B00B3EDF8 /* TrainingAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				9294AA2D2BD546B100B3EDF8 /* View */,
 				9294AA1A2BD5456B00B3EDF8 /* TrainingAnimationApp.swift */,
 				9294AA1C2BD5456B00B3EDF8 /* ContentView.swift */,
 				9294AA1E2BD5456C00B3EDF8 /* Assets.xcassets */,
@@ -71,6 +74,14 @@
 				9294AA212BD5456C00B3EDF8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9294AA2D2BD546B100B3EDF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9294AA2E2BD546BE00B3EDF8 /* FadeIn.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 				9294AA242BD5456C00B3EDF8 /* Persistence.swift in Sources */,
 				9294AA1D2BD5456B00B3EDF8 /* ContentView.swift in Sources */,
 				9294AA272BD5456C00B3EDF8 /* TrainingAnimation.xcdatamodeld in Sources */,
+				9294AA2F2BD546BE00B3EDF8 /* FadeIn.swift in Sources */,
 				9294AA1B2BD5456B00B3EDF8 /* TrainingAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
